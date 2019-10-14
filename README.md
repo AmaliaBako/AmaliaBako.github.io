@@ -7,3 +7,6 @@
 
 **AplicatiiNoi**
 [Site-ul meu](https://AmaliaBako.github.io)
+
+
+mai scriuhjbdcdjcbn jnhkd j l
