@@ -22,7 +22,7 @@ function deseneaza(unghi_x, unghi_y)
 
 function on_gyro_data_uab(e)
 {
-	deseneaza(e.beta, e.gamma);
+	deseneaza(e.gamma, e.beta);
 }
 
 function on_acc_data_uab(e)
