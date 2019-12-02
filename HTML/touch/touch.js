@@ -1,4 +1,4 @@
-document.getElementById("id_logic").innerHTML = "Logic: 2019.12.02.4";
+document.getElementById("id_logic").innerHTML = "Logic: 2019.12.02.5";
 
 window.addEventListener("touchstart", touch_start_uab);
 window.addEventListener("touchmove", touch_move_uab, {passive:false});
@@ -35,7 +35,7 @@ function touch_start_uab(p)
 		
 		context.beginPath();
 		context.arc(t[i].pageX - canvas_rect.left, t[i].pageY - canvas_rect.top, 10, 0, 2 * Math.PI);
-		contex.strokeStyle = touch_info.color;
+		context.strokeStyle = touch_info.color;
 		context.fillStyle = touch_info.color;
 		context.lineWidth = 1;
 		context.fill();
